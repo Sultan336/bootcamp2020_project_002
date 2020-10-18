@@ -1,13 +1,12 @@
 import React from 'react';
-import NavBar from './Components/NavBar';
-import InfoPanel from './Components/InfoPanel';
-import './App.css';
+import { NavBar, InfoPanel, BottomNav } from './Components';
 
 function App() {
   return (
     <div>
       <NavBar />
       <InfoPanel />
+      <BottomNav />
     </div>
   );
 }
