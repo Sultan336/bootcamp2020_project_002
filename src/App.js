@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
-import { NavBar, InfoPanel, BottomNav } from './Components';
+import React from 'react';
 
-function App() {
-  const screenConfig = useState(0);
-  return (
-    <div>
-      <NavBar />
-      <InfoPanel currentScreen={screenConfig[0]} />
-      <BottomNav screenConfig={screenConfig} />
-    </div>
-  );
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>App</h1>
+            </div>
+        )
+    }
 }
 
 export default App;
